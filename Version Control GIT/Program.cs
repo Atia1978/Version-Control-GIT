@@ -12,8 +12,11 @@ namespace Version_Control_GIT
             int InchLenght = Convert.ToInt32(Console.ReadLine());
 
             decimal totalWightInFeet = (InchWidth / 12);
-            decimal totalLanghtInFeet = InchLenght / 12;
+            decimal totalLanghtInFeet = InchLenght / 12;    
+            var totalArea = totalLanghtInFeet * totalWightInFeet;
+
             Console.WriteLine();
             Console.WriteLine();
+        }
     }
 }
