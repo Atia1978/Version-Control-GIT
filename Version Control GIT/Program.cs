@@ -16,6 +16,7 @@ namespace Version_Control_GIT
             var totalArea = totalLanghtInFeet * totalWightInFeet;
             Console.WriteLine(totalArea);
             Console.WriteLine(totalArea);
+            Console.WriteLine("Hallo Git Hub");
 
             Console.WriteLine();
             Console.WriteLine();
