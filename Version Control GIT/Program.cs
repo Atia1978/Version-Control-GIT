@@ -15,6 +15,7 @@ namespace Version_Control_GIT
             decimal totalLanghtInFeet = InchLenght / 12;    
             var totalArea = totalLanghtInFeet * totalWightInFeet;
             Console.WriteLine(totalArea);
+            Console.WriteLine(totalArea);
 
             Console.WriteLine();
             Console.WriteLine();
